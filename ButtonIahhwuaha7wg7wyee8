@@ -19,23 +19,23 @@ end
 
 local Botao = Create("TextButton", ScreenGui, {
   Name = "Botão",
-  Size = UDim2.new(0, 40, 0, 40),
-  Position = UDim2.new(0, 150, 0, 80),
+  Size = UDim2.new(0, 45, 0, 45),
+  Position = UDim2.new(0, 9, 0, 200),
   Text = "H",
   TextColor3 = Color3.fromRGB(240, 240, 240),
-  TextSize = 25,
+  TextSize = 40,
   Font = Enum.Font.GothamBlack,
   Active = true,
   Draggable = true,
   BackgroundColor3 = Color3.fromRGB()
 })Create("UIStroke", Botao, {
   Name = "Stroke",
-  Color = Color3.fromRGB(196, 29, 202),
+  Color = Color3.fromRGB(148, 112, 220),
   Thickness = 5,
   ApplyStrokeMode = "Border"
 })Create("UICorner", Botao, {
   Name = "Corner",
-  CornerRadius = UDim.new(0, 5)
+  CornerRadius = UDim.new(0, 10)
 })
 
 function keypress(key)
