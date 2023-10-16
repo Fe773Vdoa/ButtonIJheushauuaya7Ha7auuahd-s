@@ -30,7 +30,7 @@ local Botao = Create("TextButton", ScreenGui, {
   BackgroundColor3 = Color3.fromRGB()
 })Create("UIStroke", Botao, {
   Name = "Stroke",
-  Color = Color3.fromRGB(81, 5, 255),
+  Color = Color3.fromRGB(197, 5, 255),
   Thickness = 5,
   ApplyStrokeMode = "Border"
 })Create("UICorner", Botao, {
